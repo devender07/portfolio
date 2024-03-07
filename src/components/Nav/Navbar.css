@@ -1,0 +1,75 @@
+.toggleButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 2;
+}
+.toggleButton span {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: 0.3s;
+}
+
+span:nth-child(2) {
+    width: 20px;
+}
+
+span:nth-child(3) {
+    width: 10px;
+}
+
+.open:nth-child(1) {
+    width: 30px;
+    transform: translateY(9px) rotate(45deg);
+}
+
+.open:nth-child(2) {
+    opacity: 0;
+}
+
+.open:nth-child(3) {
+    width: 30px;
+    transform: translateY(-9px) rotate(-45deg);
+}
+.slide-enter {
+    transform: translateX(100%);
+}
+
+.slide-enter-active {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+}
+
+.slide-exit {
+    transform: translateX(0);
+}
+
+.slide-exit-active {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+.links {
+    padding:0 10px;
+    position: relative; 
+}
+
+.links::after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    border-bottom: 2px solid #16A34A;
+    width: 0%;
+    transition: width 0.2s ease-in-out;
+}
+.links:hover::after{
+    width: 100%;
+}

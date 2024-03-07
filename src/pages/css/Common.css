@@ -1,0 +1,125 @@
+.home {
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url('../../assets/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo {
+    background: url('../../assets/photo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.image {
+    background: rgb(37, 135, 22);
+    background: linear-gradient(90deg, rgba(37, 135, 22, 1) 0%, rgba(59, 193, 59, 1) 48%, rgba(0, 255, 85, 1) 100%);
+    border-radius: 70% 30% 74% 26% / 25% 74% 26% 75%;
+    animation: backgroundAnimation 5s infinite linear;
+    box-shadow: 5px 10px 10px 0.9px rgb(0, 36, 13);
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        border-radius: 70% 30% 74% 26% / 25% 74% 26% 75%;
+    }
+
+    25% {
+        border-radius: 64% 36% 70% 30% / 28% 57% 43% 72%;
+    }
+
+    50% {
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    }
+
+    75% {
+        border-radius: 70% 30% 64% 56% / 72% 43% 57% 58%;
+    }
+
+    100% {
+        border-radius: 70% 30% 74% 26% / 25% 74% 26% 75%;
+    }
+}
+
+
+/* Skills */
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #16A34A;
+    background: #9de8b8;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: #16A34A 5px 5px 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.box:hover {
+    transform: scale(1.2);
+}
+@media screen and (max-width:768px){
+    .box{
+        height: 70px;
+        width: 70px;
+    }
+}
+.html {
+    background-image: url('../../assets/html.png');
+}
+
+.css {
+    background-image: url('../../assets/css.png');
+}
+
+.js {
+    background-image: url('../../assets/js.png');
+}
+
+.react {
+    background-image: url('../../assets/react.png');
+}
+
+.node {
+    background-image: url('../../assets/node.png');
+}
+
+.python {
+    background-image: url('../../assets/python.png');
+}
+
+.mongodb {
+    background-image: url('../../assets/mongodb.png');
+}
+
+.git {
+    background-image: url('../../assets/git.png');
+}
+
+.tailwind {
+    background-image: url('../../assets/tailwind.png');
+}
+
+.vscode {
+    background-image: url('../../assets/vscode.png');
+}
+
+.postman {
+    background-image: url('../../assets/postman.png');
+}
+
+.github {
+    background-image: url('../../assets/github.png');
+}
+
+.figma {
+    background-image: url('../../assets/figma.png');
+}
+.projectImage{
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
