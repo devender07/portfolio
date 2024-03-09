@@ -15,7 +15,7 @@ const Contact = () => {
                     <Info className='w-full h-[30vh] lg:w-1/3 p-2 rounded text-white gap-5 items-center'>
                         <h2 className='text-3xl font-bold py-2'>Social</h2>
                         <p className='text-xl'><a href="https://www.linkedin.com/in/devender-singh00/" target='_blank' className='text-white' rel="noreferrer">LinkedIn</a></p>
-                        <p className='text-xl'><a href="https://github.com/shylen07" target='_blank' className='text-white' rel="noreferrer">Guthub</a></p>
+                        <p className='text-xl'><a href="https://github.com/devender07" target='_blank' className='text-white' rel="noreferrer">Guthub</a></p>
                     </Info>
 
                     <Footer>
