@@ -6,9 +6,9 @@ import Note from "../assets/noteapp.png"
 import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
-    const project_1 = ["Rat in a maze", ["Based on DFS Algorithm.", "Using Backtracking.",'Advance DSA.'],"Python","https://github.com/shylen07/Rat_in_a_maze"];
-    const project_2 =["Terminal based typing master",["JSON data.","Typing speed track.","User record."],"Python","https://github.com/shylen07/typing_master"]
-    const project_3 =["Full-stack NoteApp",["MERN stack.","User authentication and authorization.","Create, read, update and delete notes.","Notes linked with User."],"React Tailwind Node Express MongoDB","https://github.com/shylen07/noteapp"]
+    const project_1 = ["Rat in a maze", ["Based on DFS Algorithm.", "Using Backtracking.",'Advance DSA.'],"Python","https://github.com/devender07/Rat_in_a_maze"];
+    const project_2 =["Terminal based typing master",["JSON data.","Typing speed track.","User record."],"Python","https://github.com/devender07/typing-master"]
+    const project_3 =["Full-stack NoteApp",["MERN stack.","User authentication and authorization.","Create, read, update and delete notes.","Notes linked with User."],"React Tailwind Node Express MongoDB","https://github.com/devender07/noteapp"]
 
     return (
         <Container id="projects">
