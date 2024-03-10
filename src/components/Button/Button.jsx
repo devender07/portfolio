@@ -4,7 +4,7 @@ import "./Button.css";
 export const ResumeButton = () => {
   const handleClick = () => {
     // Open the resume view in a new tab
-    window.open('https://drive.google.com/file/d/1x4X9A2XCS2ivFrI6c700a8crF6KNltnd/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1NYby5qIqlC1b-rtL4JHb_PO7Y1gn6Mez/view?usp=sharing', '_blank');
   };
 
   return (
@@ -17,7 +17,7 @@ export const ResumeButton = () => {
 export const DownloadButton = () => {
   const handleClick = () => {
     // Initiate download in a new tab
-    window.open('https://drive.usercontent.google.com/u/0/uc?id=1x4X9A2XCS2ivFrI6c700a8crF6KNltnd&export=download', '_blank');
+    window.open('https://drive.usercontent.google.com/u/0/uc?id=1NYby5qIqlC1b-rtL4JHb_PO7Y1gn6Mez&export=download', '_blank');
   };
 
   return (
